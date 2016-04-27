@@ -8,3 +8,17 @@ public class MainJaket {
         Scanner in = new Scanner(System.in);
         Jaket j1 = new Jaket(0, 0);
         int pilihan;
+        System.out.println("                  SELAMAT DATANG DI TOKO LABKOMDAS                   ");
+        String balik = "y";
+        while (balik.equalsIgnoreCase("y")) {
+            System.out.println("*********************************************************************");
+            System.out.println("Pembelian >100 pcs untuk masing-masing jaket akan mendapatkan diskon!");
+            System.out.println("****************************Tipe Jaket*******************************");
+            System.out.println("1. Jaket A : Rp 100.000/pcs    >100 : Rp 95.000/pcs");
+            System.out.println("2. Jaket B : Rp 125.000/pcs    >100 : Rp 120.000/pcs");
+            System.out.println("3. Jaket C : Rp 175.000/pcs    >100 : Rp 160.000/pcs");
+            System.out.println("4. Keluar");
+            System.out.println("*********************************************************************");
+            System.out.print("Masukkan pilihan anda : ");
+            pilihan = in.nextInt();
+            System.out.println(" ");
