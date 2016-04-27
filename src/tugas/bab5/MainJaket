@@ -32,3 +32,12 @@ public class MainJaket {
                     j1.JaketA();
                     System.out.println("*********************************************************************");
                     break;
+                case 2:
+                    System.out.println("*********************************************************************");
+                    System.out.println("           Jaket B : Rp 125.000/pcs    >100 : Rp 120.000/pcs         ");
+                    System.out.print("Masukkan jumlah pesanan jaket anda : ");
+                    a = in.nextInt();
+                    j1 = new Jaket(a, pilihan);
+                    j1.JaketB();
+                    System.out.println("*********************************************************************");
+                    break;
