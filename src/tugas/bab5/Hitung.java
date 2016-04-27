@@ -1,21 +1,8 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
-package tugas.bab5;
+package Hitung;
 
-/**
- *
- * @author irwin deriyan
- */
-public class TugasBab5 {
+public class Hitung {
 
-    /**
-     * @param args the command line arguments
-     */
-    public static void main(String[] args) {
-        // TODO code application logic here
+    public static void Penjumlahan(int bil1, int bil2) {
+        int nilai = bil1 + bil2;
+        System.out.println("Hasil penjumlahan  = " + nilai);
     }
-    
-}
