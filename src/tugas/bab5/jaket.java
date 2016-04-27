@@ -28,4 +28,15 @@ public class Jaket {
         jumlah = jumlah + hasil;
         System.out.println("Harga yang dibayar : Rp." + hasil);
     }
+    
+    public void JaketB() {
+        int hasil = 0;
+        if (B <= 100) {
+            hasil = B * jaketB;
+        } else {
+            hasil = B * (jaketB - 5000);
+        }
+        jumlah = jumlah + hasil;
+        System.out.println("Harga yang dibayar : Rp." + hasil);
+    }
 
