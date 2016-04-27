@@ -6,3 +6,8 @@ public class Hitung {
         int nilai = bil1 + bil2;
         System.out.println("Hasil penjumlahan  = " + nilai);
     }
+    
+    public static void Pengurangan(int bil1, int bil2) {
+        int nilai = bil1 - bil2;
+        System.out.println("Hasil pengurangan  = " + nilai);
+    }
