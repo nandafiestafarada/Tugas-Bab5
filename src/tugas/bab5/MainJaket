@@ -1,1 +1,10 @@
+package Jaket;
 
+import java.util.Scanner;
+
+public class MainJaket {
+
+    public static void main(String[] args) {
+        Scanner in = new Scanner(System.in);
+        Jaket j1 = new Jaket(0, 0);
+        int pilihan;
