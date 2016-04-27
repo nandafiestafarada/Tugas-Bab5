@@ -49,3 +49,20 @@ public class MainHitung {
                     h1.Perkalian(bil1, bil2);
                     System.out.println(" ");
                     break;
+                case 4:
+                    System.out.println("****Pembagian****");
+                    System.out.print("Masukkan bilangan 1 = ");
+                    bil1 = in.nextInt();
+                    System.out.print("Masukkan bilangan 2 = ");
+                    bil2 = in.nextInt();
+                    h1.Pembagian(bil1, bil2);
+                    System.out.println(" ");
+                    break;
+                case 5:
+                    System.out.println("KELUAR!!!");
+                default:
+                    System.out.println("INPUTAN ANDA TIDAK TERSEDIA");
+            }
+        } while (pilihan >= 1 && pilihan < 5);
+    }
+}
