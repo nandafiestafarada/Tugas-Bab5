@@ -17,4 +17,15 @@ public class Jaket {
             C = banyak + C;
         }
     }
+    
+    public void JaketA() {
+        int hasil = 0;
+        if (A <= 100) {
+            hasil = A * jaketA;
+        } else {
+            hasil = A * (jaketA - 5000);
+        }
+        jumlah = jumlah + hasil;
+        System.out.println("Harga yang dibayar : Rp." + hasil);
+    }
 
