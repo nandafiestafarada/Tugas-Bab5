@@ -39,4 +39,20 @@ public class Jaket {
         jumlah = jumlah + hasil;
         System.out.println("Harga yang dibayar : Rp." + hasil);
     }
+    
+    public void JaketC() {
+        int hasil = 0;
+        if (C <= 100) {
+            hasil = C * jaketC;
+        } else {
+            hasil = C * (jaketC - 15000);
+        }
+        jumlah = jumlah + hasil;
+        System.out.println("Harga yang dibayar : Rp." + hasil);
+    }
+
+    public static int getJumlah() {
+        return jumlah;
+    }
+}
 
