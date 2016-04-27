@@ -31,3 +31,12 @@ public class MainHitung {
                     Hitung.Penjumlahan(bil1, bil2);
                     System.out.println(" ");
                     break;
+                case 2:
+                    System.out.println("****Pengurangan****");
+                    System.out.print("Masukkan bilangan 1 = ");
+                    bil1 = in.nextInt();
+                    System.out.print("Masukkan bilangan 2 = ");
+                    bil2 = in.nextInt();
+                    Hitung.Pengurangan(bil1, bil2);
+                    System.out.println(" ");
+                    break;
