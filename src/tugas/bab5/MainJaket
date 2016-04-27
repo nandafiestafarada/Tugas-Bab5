@@ -57,4 +57,19 @@ public class MainJaket {
                     System.out.println("Peringatan !! masukkan pilihan dengan benar ");
                     continue;
             }
+            if (pilihan == 4) {
+                break;
+            } else {
+                System.out.print("Apakah anda ingin memesan lagi (Y/N) : ");
+                balik = in.next();
+                System.out.println("  ");
+            }
+        }
+        System.out.println("*********************************************");
+        System.out.println("Total yang harus dibayar : Rp." + Jaket.getJumlah());
+        System.out.println("     Terima Kasih Telah Berbelanja            ");
+        System.out.println("       Jangan Lupa Datang Kembali             ");
+        System.out.println("**********************************************");
+    }
+}
 
